@@ -127,6 +127,16 @@ body {
 			background: #cb5a5e;
 			opacity: 0.3;
 		}
+        @media (max-width: 600px) {
+            .letter-title
+            {
+                font-size: .5rem;
+            }
+            .letter-context 
+            {
+              font-size: .3rem;  
+            }
+        }
 	}
 }
 
@@ -171,4 +181,5 @@ body {
 		.shadow {
 			width: 250px;
 		}
+
 	}
